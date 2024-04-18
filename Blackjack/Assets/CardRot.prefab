@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardDispObject: {fileID: 6643262846104691506}
   cardDisp: {fileID: 3853483029074362198}
+  CardClick: {fileID: 5597447025433846984, guid: 10f8cf583f737b646bd8e344c155ed1d, type: 3}
   cardB: {fileID: 21559837186512312}
   Img1: {fileID: 21300000, guid: e6be5d9afc567be4bba3cf87f1d76aa1, type: 3}
   CardImg: {fileID: 21559836574757963}
@@ -256,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 352b0fa716c22994ba0fd9042b4c449d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0d7c2e77df5207945ab0c91eb0d20192, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

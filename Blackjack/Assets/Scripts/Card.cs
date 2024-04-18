@@ -9,6 +9,8 @@ public class Card : MonoBehaviour
 {
     public GameObject cardDispObject;
     public TextMeshProUGUI cardDisp;
+
+    public AudioSource CardClick;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,7 @@ public class Card : MonoBehaviour
 
         if (start){
             start = false;
+            CardClick.Play();
             StartCoroutine(SlowSpin());
         if(move < 3){
         // Moves an object up 2 units
